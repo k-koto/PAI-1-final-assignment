@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+MUJOCO_LOG.TXT
+*.log
+video/
+checkpoints_old/
+checkpoints/*.zip
+!checkpoints/ppo_0_steps.zip
+!checkpoints/ppo_20000_steps.zip
+!checkpoints/ppo_35000_steps.zip
+!checkpoints/ppo_final.zip
